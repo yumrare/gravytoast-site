@@ -1,5 +1,5 @@
 {
- "stamp": "20261018a",
+ "stamp": "20261018b",
  "pages": [
   "404.html",
   "about.html",
@@ -14,7 +14,6 @@
   "item-bacon-gravy.html",
   "item-bagel.html",
   "item-biscuits-chocolate-gravy.html",
-  "item-bisto.html",
   "item-breakfast-stack.html",
   "item-brown-gravy.html",
   "item-bulldog-gravy.html",
@@ -32,7 +31,6 @@
   "item-crawfish-gravy-cornbread.html",
   "item-crawfish-gravy.html",
   "item-dressing-base.html",
-  "item-durkee.html",
   "item-eggs-with-gravy.html",
   "item-english-muffin.html",
   "item-fried-chicken-cream-gravy.html",
@@ -46,18 +44,13 @@
   "item-hash-brown-base.html",
   "item-hot-beef-plate.html",
   "item-johnnycake.html",
-  "item-knorr.html",
-  "item-lawrys.html",
   "item-liver-gravy.html",
   "item-liver-onions-plate.html",
-  "item-mccormick.html",
   "item-milk-gravy.html",
-  "item-morrisons.html",
   "item-mushroom-gravy.html",
   "item-onion-gravy.html",
   "item-open-faced-hot-turkey.html",
   "item-pepper-gravy.html",
-  "item-pioneer-brand.html",
   "item-pork-chop-sawmill.html",
   "item-red-eye-gravy.html",
   "item-rye-toast.html",
@@ -72,7 +65,6 @@
   "item-sorghum-gravy.html",
   "item-sos-chipped-beef.html",
   "item-sourdough-toast.html",
-  "item-southeastern-mills.html",
   "item-split-top-roll.html",
   "item-sunday-gravy.html",
   "item-texas-toast.html",
@@ -83,7 +75,6 @@
   "item-vegetarian-mushroom-gravy.html",
   "item-white-toast.html",
   "item-whole-wheat-toast.html",
-  "makers-mixes.html",
   "plates-classics.html",
   "policy.html",
   "region-appalachia.html",
@@ -102,7 +93,7 @@
   "thanks.html",
   "toasts-bases.html"
  ],
- "items": 73,
+ "items": 65,
  "regions": 12,
- "sitemap_urls": 99
+ "sitemap_urls": 90
 }
