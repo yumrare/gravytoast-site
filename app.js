@@ -6,7 +6,7 @@ if(params.get('q'))q.value=params.get('q');
 function render(){
   var term=(q.value||'').toLowerCase().trim();
   var hits=idx.filter(function(e){return (!cat||e.cs===cat)&&(!term||e.n.toLowerCase().indexOf(term)>-1||e.m.toLowerCase().indexOf(term)>-1||e.c.toLowerCase().indexOf(term)>-1);});
-  res.innerHTML=hits.length?hits.map(function(e){return '<article class="card"><h3><a href="/'+e.u+'">'+e.n+'</a></h3><p class="card-meta">'+e.c+' · '+e.m+'</p></article>';}).join(''):'<p class="note">No entries match yet. Try a gravy, a plate, or a maker.</p>';
+  res.innerHTML=hits.length?hits.map(function(e){return '<article class="card"><h3><a href="/'+e.u+'">'+e.n+'</a></h3><p class="card-meta">'+e.c+' · '+e.m+'</p></article>';}).join(''):'<p class="note">No entries match yet. Try a gravy, a plate, or a base.</p>';
 }
 q.addEventListener('input',render);
 document.getElementById('search-form').addEventListener('submit',function(ev){ev.preventDefault();render();});
