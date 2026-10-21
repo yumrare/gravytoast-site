@@ -40,9 +40,8 @@ main{padding:26px 18px 44px}
 .strip{margin-top:32px}
 .digest{background:var(--cream);border:2px solid var(--gold);border-radius:18px;padding:22px 24px}
 .digest h2{margin-top:0}
-.digest-form{display:flex;flex-wrap:wrap;gap:12px;margin-top:12px}
-.digest-form input[type=email]{flex:1 1 240px;padding:12px 16px;border:2px solid var(--ink);border-radius:999px;font:inherit;background:var(--field);color:var(--ink)}
-.digest-form button{background:var(--gold);color:#fff;border:none;border-radius:999px;padding:12px 26px;font:inherit;font-weight:700;cursor:pointer}
+.digest-cta{margin-top:14px}
+.digest-button{display:inline-block;background:var(--gold);color:#fff;border-radius:999px;padding:12px 30px;font-weight:700;text-decoration:none}
 .digest-note{margin-top:10px;font-size:.9em;opacity:.75}
 .guide-row{display:flex;flex-wrap:wrap;gap:12px}
 .guide-chip{background:var(--cream);border:2px solid var(--teal);color:var(--ink);border-radius:999px;padding:10px 18px;text-decoration:none;font-weight:700}
